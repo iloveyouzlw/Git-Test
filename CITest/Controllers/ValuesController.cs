@@ -14,7 +14,7 @@ namespace CITest.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2", "value3", "value4" };
+            return new string[] { "value1", "value2", "value3", "value4","value7" };
         }
 
         // GET api/values/5
